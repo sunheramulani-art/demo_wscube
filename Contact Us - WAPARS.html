@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5501/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - WAPARS</title>
+    <link rel="stylesheet" href="./Contact Us - WAPARS_files/style.css">
+</head>
+<body>
+<!--navbar-->
+    <header class="hero">
+    <nav class="navbar">
+        
+            <div class="logo">WAPARS</div>
+            <ul class="nav-links">
+                
+                <li><a href="http://127.0.0.1:5501/index.html#">Home</a></li>
+                <li><a href="http://127.0.0.1:5501/index.html#">About us</a></li>
+                <li><a href="http://127.0.0.1:5501/index.html#">Shoes</a></li>
+                <li><a href="http://127.0.0.1:5501/index.html#">Sustainability</a></li>
+                <li><a href="http://127.0.0.1:5501/index.html#">Reviews</a></li>
+            </ul>
+    
+            
+            <div class="nav-icons">
+                <span>🔍</span> <span>🛒</span>
+                <button class="btn-contact">Let's connect</button>
+            </div>
+        </nav>
+        
+        <div class="hero-content">
+            <h1>Contact Us</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tellus, luctus nec ullamcorper mattis pulvinar leo.</p>
+        </div>
+    </header>
+
+    <section class="contact-container">
+        <div class="contact-card">
+            <div class="contact-info">
+                <h2>Get In Touch !</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tellus, luctus nec ullamcorper mattis pulvinar leo.</p>
+                
+                <div class="info-item">
+                    <div class="icon">📍</div>
+                    <div>
+                        <strong>Head Office</strong><br>
+                        Jalan cempaka wangi no 22 Jakarta - Indonesia
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="icon">✉️</div>
+                    <div>
+                        <strong>Email Us</strong><br>
+                        support@wapars.id
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="icon">📞</div>
+                    <div>
+                        <strong>Call Us</strong><br>
+                        Phone : +6222 3333 4444
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form">
+                <div class="form-row">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                </div>
+                <div class="form-row">
+                    <input type="email" placeholder="Email Address">
+                    <input type="tel" placeholder="Phone Number">
+                </div>
+                <textarea placeholder="Message" rows="5"></textarea>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>WAPARS</h3>
+                <p>Transforming waste plastic into stylish, eco-
+                    friendly shoes. Join us in our sustainable journey.step 
+                forward with a greener footprint.</p>
+            </div>
+            <div class="footer-links">
+                <h4>QUICK LINKS</h4>
+                <ul><li>Home</li><li>About us</li><li>Shoes</li><li>Sustainability</li><li>Reviews</li></ul>
+            </div>
+            <div class="footer-links">
+                <h4>INFORMATION</h4>
+                <ul><li>Track Your Order</li><li>The Journey</li><li>Why WAPERS</li><li>Our Stores</li><li>FAQ</li>
+            </ul></div>
+            <div class="footer-links">
+                <h4>GUIDES</h4>
+                <ul><li>Return Policy</li><li>Privacy Policy</li><li>Terms &amp; Conditions</li></ul>
+            </div>
+        </div>
+        <div class="copyright">©2024 WAPARS Pvt. Ltd.</div>
+    </footer>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
